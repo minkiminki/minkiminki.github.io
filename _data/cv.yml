@@ -1,21 +1,37 @@
 - title: General Information
+  enabled: false
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name in English
+      value: Minki Cho
+    - name: Name in Korean
+      value: 조민기
+    - name: Citizenship
+      value: South Korea
 
 - title: Education
+  enabled: true
+  type: list
+  contents:
+    - Ph.D. Student Computer Science and Engineering
+      <br>
+      Sep. 2017 - Aug. 2023 (expected), Seoul National University
+    - B.S. Computer Science and Engineering
+      <br>
+      B.S. Philosophy of Mathematics and Logics
+      <br>
+      Mar. 2014 - Feb. 2017, Seoul National University
+    - Mar. 2011 - Feb. 2014, Seoul Science High School
+
+- title: Education
+  enabled: false
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. student
+      institution: Seoul National University
+      year: 2017 - Current
       description:
-        - Description 1.
+        - Major Computer Science and Engineering
         - Description 2.
         - title: Description 3.
           contents:
@@ -29,6 +45,7 @@
         - Description 2.
 
 - title: Experience
+  enabled: false
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
@@ -62,6 +79,7 @@
       year: 1909 - 1911
 
 - title: Open Source Projects
+  enabled: false
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
@@ -69,21 +87,23 @@
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
+  enabled: false
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
+  enabled: false
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
@@ -92,6 +112,7 @@
         - Description 2.
 
 - title: Other Interests
+  enabled: false
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
