@@ -29,10 +29,7 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
-        {%- if entry.conditional -%}
-          <i>Conditionally Accepted</i>
-        {%- endif -%}
+        <div class="title"><b>{{entry.title}}</b></div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -62,10 +59,10 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+            <!-- {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%} -->
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <em><b>{{author.first}} {{author.last}}</b></em>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -109,15 +106,19 @@
 
         </div>
 
+        {%- if entry.conditional -%}
+          <i>Conditionally Accepted</i>
+        {%- endif -%}
+
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- capture entrytype -%}{{entry.journal}}{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}In {{entry.booktitle}} {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
-          {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}{{entry.school}} {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
@@ -127,8 +128,17 @@
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
+        {%- if entry.conference -%}
+          {%- capture entryconference -%}{{ " " }}{{entry.conference}}{%- endcapture -%}
+        {%- else -%}
+          {%- capture entryconference -%}{{ "#" }}{%- endcapture -%}
+        {%- endif -%}
+        {%- if entry.abbr -%}
+          {%- capture entryabbr -%}<i>(<a href="{{entryconference}}"><b>{{entry.abbr}} {{entry.year}}</b></a>)</i>{%- endcapture -%}
+        {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        <!-- {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%} -->
+        {%- capture periodical -%}{{ entrytype }} {{ entryabbr }}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>
