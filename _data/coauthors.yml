@@ -1,34 +1,64 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Song":
+  - firstname: ["Youngju"]
+    url: https://people.mpi-sws.org/~youngju/index.html
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Gäher":
+  - firstname: ["Lennard"]
+    url: https://people.mpi-sws.org/~gaeher/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Dreyer":
+  - firstname: ["Derek"]
+    url: https://www.mpi-sws.org/~dreyer
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Moon":
+  - firstname: ["Soonwon"]
+    url: mailto:damhiya@inha.edu
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hur":
+  - firstname: ["Chung-Kil"]
+    url: https://sf.snu.ac.kr/gil.hur/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Margalit":
+  - firstname: ["Roy"]
+    url: https://www.cs.tau.ac.il/research/roy.margalit/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Lahav":
+  - firstname: ["Ori"]
+    url: http://www.cs.tau.ac.il/~orilahav/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Sammler":
+  - firstname: ["Michael"]
+    url: https://www.mpi-sws.org/~msammler
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Lee":
+  - firstname: ["Sung-Hwan"]
+    url: https://sf.snu.ac.kr/sunghwan.lee
+
+  - firstname: ["Dongjae"]
+    url: https://sf.snu.ac.kr/dongjae.lee
+
+"Podkopaev":
+  - firstname: ["Anton"]
+    url: https://podkopaev.net/
+
+"Chakraborty":
+  - firstname: ["Soham"]
+    url: https://www.cse.iitd.ac.in/~soham/
+
+"Vafeiadis":
+  - firstname: ["Viktor"]
+    url: https://www.mpi-sws.org/~viktor
+
+"Kim":
+  - firstname: ["Jinwoo"]
+    url: https://sf.snu.ac.kr/jinwoo.kim
+
+  - firstname: ["Dongjoo"]
+    url: https://sf.snu.ac.kr/dongjoo.kim/
+
+  - firstname: ["Yonghyun"]
+    url: https://sf.snu.ac.kr/yonghyun.kim/
+
+"Kang":
+  - firstname: ["Jeehoon"]
+    url: https://cp.kaist.ac.kr/jeehoon.kang/
