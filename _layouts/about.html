@@ -52,6 +52,13 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          <!-- All papers -->
+          {% if page.all_papers -%}
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2>
+            <p class="post-description">in reversed chronological order. * denotes co-first authors.</p>
+            {%- include all_papers.html %}
+          {%- endif %}
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
