@@ -1,6 +1,6 @@
 "Song":
   - firstname: ["Youngju"]
-    url: https://people.mpi-sws.org/~youngju/index.html
+    url: https://people.mpi-sws.org/~youngju/
 
 "Gäher":
   - firstname: ["Lennard"]
@@ -8,7 +8,7 @@
 
 "Dreyer":
   - firstname: ["Derek"]
-    url: https://www.mpi-sws.org/~dreyer
+    url: https://people.mpi-sws.org/~dreyer/
 
 "Moon":
   - firstname: ["Soonwon"]
@@ -28,14 +28,14 @@
 
 "Sammler":
   - firstname: ["Michael"]
-    url: https://www.mpi-sws.org/~msammler
+    url: https://people.mpi-sws.org/~msammler/
 
 "Lee":
   - firstname: ["Sung-Hwan"]
-    url: https://sf.snu.ac.kr/sunghwan.lee
+    url: https://sunghwanl.github.io/
 
   - firstname: ["Dongjae"]
-    url: https://sf.snu.ac.kr/dongjae.lee
+    url: https://mori1116.github.io/
 
 "Podkopaev":
   - firstname: ["Anton"]
@@ -43,15 +43,15 @@
 
 "Chakraborty":
   - firstname: ["Soham"]
-    url: https://www.cse.iitd.ac.in/~soham/
+    url: https://www.st.ewi.tudelft.nl/sschakraborty/
 
 "Vafeiadis":
   - firstname: ["Viktor"]
-    url: https://www.mpi-sws.org/~viktor
+    url: https://people.mpi-sws.org/~viktor/
 
 "Kim":
   - firstname: ["Jinwoo"]
-    url: https://sf.snu.ac.kr/jinwoo.kim
+    url: https://sf.snu.ac.kr/jinwoo.kim/
 
   - firstname: ["Dongjoo"]
     url: https://sf.snu.ac.kr/dongjoo.kim/
