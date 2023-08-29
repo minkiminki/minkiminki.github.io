@@ -13,16 +13,16 @@
   enabled: true
   type: list
   contents:
-    - Ph.D. Student, Computer Science and Engineering
+    - <b>Ph.D.</b>, Computer Science and Engineering
       <br>
-      Sep. 2017 - Aug. 2023 (expected), Seoul National University
+      Sep. 2017 - Aug. 2023, Seoul National University
       <br>
       Advised by <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>, <a href="https://sf.snu.ac.kr">Software Foundations Lab</a>
       <br>
       Thesis&#58; <a href="/assets/pdf/thesis_phd.pdf">Simplifying Reasoning under Weak Memory Concurrency</a>
-    - B.S., Computer Science and Engineering
+    - <b>B.S.</b>, Computer Science and Engineering
       <br>
-      B.S., Philosophy of Mathematics and Logics (self-designed major)
+      <b>B.S.</b>, Philosophy of Mathematics and Logics (self-designed major)
       <br>
       Mar. 2014 - Feb. 2017, Seoul National University
       <br>
@@ -93,16 +93,12 @@
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
-  enabled: false
-  type: time_table
+  enabled: true
+  type: list
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - <b>PhD Dissertation Award</b>
+      <br>
+      2023, Department of Computer Science and Engineering, Seoul National University
 
 - title: Academic Interests
   enabled: false

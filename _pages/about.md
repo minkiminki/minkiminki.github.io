@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate
+subtitle: <b>Ph.D.</b>
 
 _profile:
   align: right
