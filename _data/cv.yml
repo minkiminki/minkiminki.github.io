@@ -9,6 +9,14 @@
     - name: Citizenship
       value: South Korea
 
+- title: Experience
+  enabled: true
+  type: list
+  contents:
+    - Compiler Engineer
+      <br>
+      Oct. 2023 - Current, <a href="https://www.furiosa.ai/">FuriosaAI</a>
+
 - title: Education
   enabled: true
   type: list
@@ -28,27 +36,6 @@
       <br>
       <a href="https://cls.snu.ac.kr/en">College of Liberal Studies</a>
     - Mar. 2011 - Feb. 2014, Seoul Science High School
-
-- title: Education
-  enabled: false
-  type: time_table
-  contents:
-    - title: Ph.D. student
-      institution: Seoul National University
-      year: 2017 - Current
-      description:
-        - Major Computer Science and Engineering
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   enabled: false

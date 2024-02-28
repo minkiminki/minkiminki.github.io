@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Ph.D.</b>
+subtitle: <b>Compiler Engineer</b><br><a href='https://www.furiosa.ai/'>FuriosaAI</a>
 
 _profile:
   align: right
@@ -19,11 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 all_papers: true
 social: true  # includes social icons at the bottom of the page
 ---
-<a href='https://sf.snu.ac.kr/'>Software Foundations Lab</a>
-<br>
-<a href='https://cse.snu.ac.kr/en'>Department of Computer Science and Engineering</a>
-<br>
-<a href='https://en.snu.ac.kr'>Seoul National Univeristy</a>
 
 {% comment %}
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
