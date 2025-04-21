@@ -1,6 +1,42 @@
 ---
 ---
 
+@article{lee2025lilo,
+  abbr={OOPSLA},
+  title={Lilo: A Higher-Order, Relational Concurrent Separation Logic for Liveness},
+  author={Lee, Dongjae and Lee, Janggun and Yoon, Taeyoung and Cho, Minki and Kang, Jeehoon and Hur, Chung-Kil},
+  journal={Proceedings of the ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+  pdf={https://sf.snu.ac.kr/publications/lilo.pdf},
+  conference={https://2025.splashcon.org/track/OOPSLA},
+  publisherpage={https://dl.acm.org/doi/10.1145/3720525},
+  year={2025},
+  selected={true},
+  abstract={
+    Concurrent separation logic (CSL) has excelled in verifying safety properties across various applications, yet its application to liveness properties remains limited. While existing approaches like TaDA Live and Fair Operational Semantics (FOS) have made significant strides, they still face limitations. TaDA Live struggles to verify certain classes of programs, particularly concurrent objects with non-local linearization points, and lacks support for general liveness properties such as "good things happen infinitely often". On the other hand, FOS’s scalability is hindered by the absence of thread modular reasoning principles and modular specifications.<br>
+    This paper introduces Lilo, a higher-order, relational CSL designed to overcome these limitations. Our core observation is that FOS helps us to maintain simple primitives for our logic, which enable us to explore design space with fewer restrictions. As a result, Lilo adapts various successful techniques from literature. It supports reasoning about non-terminating programs by supporting refinement proofs, and also provides Iris-style invariants and modular specifications to facilitate modular verification. To support higher-order reasoning without relying on step-indexing, we develop a technique called stratified propositions inspired by Nola. In particular, we develop novel abstractions for liveness reasoning that bring these techniques together in a uniform way. We show Lilo’s scalability through case studies, including the first termination-guaranteeing modular verification of the elimination stack. Lilo and examples in this paper are mechanized in Coq.
+  }
+}
+
+@article{kim2025archmage,
+  abbr={POPL},
+  title={Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting},
+  author={Kim, Yonghyun and Cho, Minki and Lee, Jaehyung and Kim, Jinwoo and Yoon, Taeyoung and Song, Youngju and Hur, Chung-Kil},
+  journal={Proceedings of the ACM SIGPLAN Symposium on Principles of Programming Languages},
+  year={2025},
+
+  website={https://sf.snu.ac.kr/archmage/},
+  pdf={https://sf.snu.ac.kr/publications/archmage.pdf},
+
+  conference={https://conf.researchr.org/home/POPL-2025},
+  publisherpage={https://dl.acm.org/doi/10.1145/3704881},
+  year={2025},
+  selected={true},
+  abstract={
+    Although there have been many approaches for developing formal memory models that support integer-pointer casts, previous approaches share the drawback that they are not designed for end-to-end verification, failing to support some important source-level coding patterns, justify some backend optimizations, or lack a source-level logic for program verification.</br>
+    This paper presents Archmage, a framework for integer-pointer casting designed for end-to-end verification, supporting a wide range of source-level coding patterns, backend optimizations, and a formal notion of out-of-memory. To facilitate end-to-end verification via Archmage, we also present two systems based on Archmage: CompCertCast, an extension of CompCert with Archmage to bring a full verified compilation chain to integer-pointer casting programs, and Archmage logic, a source-level logic for reasoning about integer-pointer casts. We design CompCertCast such that the overhead from formally supporting integer-pointer casts is mitigated, and illustrate the effectiveness of Archmage logic by verifying an xor-based linked-list implementation, Together, our paper presents the first practical end-to-end verification chain for programs containing integer-pointer casts.
+  }
+}
+
 @article{cho2023stuttering,
   abbr={OOPSLA},
   title={Stuttering for Free},
@@ -12,6 +48,7 @@
     In this paper, we observe that the requirement to eventually achieve synchronous progress is burdensome and, what’s more, unnecessary: it is possible to ensure soundness of stuttering simulations while only requiring asynchronous progress (progress on both sides of the simulation that may be achieved with only stuttering steps). Building on this observation, we develop a new simulation technique we call FreeSim (short for “freely-stuttering simulations”), mechanized in Coq, and we demonstrate its effectiveness on a range of interesting case studies. These include a simplification of the meta-theory of CompCert, as well as the DTrees library, which enriches the ITrees (Interaction Trees) library with dual non-determinism.},
   publisherpage={https://doi.org/10.1145/3622857},
   website={https://sf.snu.ac.kr/freesim/},
+  pdf={https://sf.snu.ac.kr/publications/freesim.pdf},
   selected={true},
   conference={https://2023.splashcon.org/track/splash-2023-oopsla},
 }

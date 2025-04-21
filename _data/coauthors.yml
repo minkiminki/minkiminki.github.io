@@ -12,7 +12,7 @@
 
 "Moon":
   - firstname: ["Soonwon"]
-    url: mailto:damhiya@inha.edu
+    url: https://sf.snu.ac.kr/soonwon.moon/
 
 "Hur":
   - firstname: ["Chung-Kil"]
@@ -36,6 +36,12 @@
 
   - firstname: ["Dongjae"]
     url: https://mori1116.github.io/
+
+  - firstname: ["Jaehyung"]
+    url: https://sf.snu.ac.kr/jaehyung.lee/
+
+  - firstname: ["Janggun"]
+    url: https://cp.kaist.ac.kr/janggun.lee/
 
 "Podkopaev":
   - firstname: ["Anton"]
@@ -62,3 +68,7 @@
 "Kang":
   - firstname: ["Jeehoon"]
     url: https://cp.kaist.ac.kr/jeehoon.kang/
+
+"Yoon":
+  - firstname: ["Taeyoung"]
+    url: https://sf.snu.ac.kr/taeyoung.yoon/
